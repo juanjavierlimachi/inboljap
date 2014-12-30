@@ -1,0 +1,23 @@
+#boton{
+	background-color: blue;
+	color: white;
+	width: 25%;
+	border-radius: 5px;
+	margin-left: 165px;
+
+}
+#reset{
+	background-color: red;
+	color: white;
+	width: 25%;
+	border-radius: 5px;
+	margin: auto;
+	margin-left: 10px;
+}
+#boton:hover{
+	cursor: pointer;
+/*	background-color: #4169E1;*/
+}
+#reset:hover{
+	cursor: pointer;
+}

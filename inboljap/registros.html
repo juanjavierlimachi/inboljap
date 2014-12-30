@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>registro</title>
+		<link rel="stylesheet" type="text/css" href="css/stylo.css">
+		<link rel="stylesheet" type="text/css" href="css/styles.css">
+		<script type="text/javascript" src="js/jquery-1.9.1.js"></script>	
+		<script type="text/javascript">
+		        function RegistrarAlumno(){
+		        	$.ajax({
+		        		type:"POST",
+		        		//url:"registroAmunos.html",
+		        		url:"registroAlumno.php",
+		        		data:{},
+		        		success:function(datos){
+		        			$('#formularioAlumno').html(datos);
+		        		}
+		        	});
+		        }
+		        function Vercursos(){
+		        	$.ajax({
+		        		type:"POST",
+		        		url:"Vercursos.php",
+		        		data:{},
+		        		success:function(datos){
+		        			$('#cursos').html(datos);
+		        		}
+		        	});
+		        }
+		</script>
+		<script type="text/javascript">
+			function ventanaSecundaria(URL){
+				window.open(URL,"Curso","width=300,height=300,scrollbars=NO")
+			}
+		</script>	
+		<style type="text/css">
+			.nav li a img{
+				height: 16px;
+				width: 40px;
+			}
+			
+		</style>
+</head>
+<div><marquee>BIEN VENIDO AL SISTEMA DE CONTROL Y SEGUIMIENTO DE ALUMNOS</marquee></div>
+<div id="animacion" align="center"  style="background-color:#666666; color:fff; pading:0px; margin:0px">
+			<div id="layer"><img src="images/jijij.jpg" alt="" width="1000" height="110" /></div>
+</div>
+	<body>
+		<div id="container">
+		<div id="header">
+			<u class ="nav">
+			<!-- 	<li><a href="#"><img src="images/user.jpg"></a></li> -->
+				<li><a href="index.html">Salir</a></li>
+				
+				<li><a href="">Alumnos</a>
+					<ul>
+						<li><a href="registroAlumno.php">Regsitrar</a></li>
+						<!--<li><a href="#" onclick="cargar();">Buscar</a></li>-->
+						<li><a href="buscador.php">Buscar</a></li>
+					</ul>
+				</li>
+
+				<li><a href="">Personal</a>
+					<ul>
+						<li><a href="registroProfesor.php">Registrar</a></li>
+		
+						<li><a href="crearUsuario.php">Crear Usuario</a></li>
+						<li><a href="">Ver</a>
+							<ul>
+								<li><a href="VerProfesores.php">Profesores</a></li>
+								<li><a href="Verusuarios.php">Usuarios</a></li>
+							</ul>
+						</li>
+					</ul>
+				</li>
+				<li><a href="">Materia</a>
+						<ul>
+						<li><a href="RegistroMaterias.php">Registrar</a></li>
+						<li><a href="VerMaterias.php" id="VerMaterias">Ver</a></li><!---->
+						</ul>
+				</li>
+				<li><a href="">Curso</a>
+						<ul>
+						<li><a href="registroCurso.php">Registrar</a></li>
+						<li><a href="Vercursos.php">Ver</a></li>
+						</ul>
+				</li>
+				<li><a href="">Asignar</a>
+						<ul>
+						<li><a href="materiasCursos.php">Asignar Materias a Cursos</a></li>
+						</ul>
+				</li>
+				<li><a href="">Imagenes</a>
+				<ul>
+					<li><a href="multimedia.php">Ver Imagenes</a></li>
+					<li><a href="subir.php">Subir Archivos</a></li>
+				</ul>
+				</li>
+			</u>
+		</div>
+</div>
+<div id="lesft"><div id="img"> <img src="images/f1.jpg"> </div>
+				<div id="img"> <img src="images/f2.jpg"> </div>
+				<div id="img"> <img src="images/f3.jpg"> </div>
+</div>
+<div id="resft">
+<marquee id="ejemplo" style="height: 350px;" onmouseover=this.stop() onmouseout=this.start()  trueSpeed scrollAmount=1 
+		scrollDelay=35 width=850 direction="up">aki esta en texfkfnvjfn v<br>
+mas de las noticioas ngrngng
+</marquee>
+</div>
+
+<!--<a href="javascript:ventanaSecundaria('VerMaterias.php')">Ver Materias</a>-->
+<div id="tabla"></div>
+
+</body>
+		<div id="formularioAlumno"></div>
+		<div id="curso"></div>
+
+</html>

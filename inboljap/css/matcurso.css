@@ -1,0 +1,20 @@
+#datos{
+			background-color: #6666FF;
+			width: 50%;
+			margin: auto;
+			border-radius: 10px;
+		}
+		#datos table thead tr td {
+			background-color: #3333FF;
+			text-align: center;
+			margin-right:  15px;
+		}
+		#datos table tr:hover{
+			background-color:#6699CC; 
+		}
+		#da{
+			width: 100%;
+		}
+		h2{
+			text-align: center;
+		}

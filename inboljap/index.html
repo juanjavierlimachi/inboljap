@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+<title>inicio</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="default.css" rel="stylesheet" type="text/css" media="screen" />
+<script type="text/javascript" src="js/jquery-1.9.1.js"></script>
+<script type="text/javascript">
+//$('#formulario').hide();
+$(document).ready(function(){
+$('#formulario').hide();
+$("#loguin").click(function(){
+        $("#formulario").show(1000);
+    });
+});
+</script>
+<style type="text/css">
+#formulario{
+	
+	width: 290px;
+	height: 190px;
+	margin-top: 0px;
+	background-color: #6633FF;
+	border-radius: 10px;
+}
+#formlo{
+	margin-top: 0px;
+
+}
+#formulario div{
+
+	margin-top: 120px;
+}
+#formulario div img{
+	width: 66%;
+	height: 60px;
+	margin-left: 20px;
+	border-radius: 5px;
+}
+</style>
+</head>
+<body>
+
+	
+	<a class="home" href="http://www.vidamrr.com">
+		<div class="etiqueta">
+			<marquee>SISTEMA DE REGISTRO Y CONTROL DE ALUMNOS</marquee>
+		</div>
+	</a>
+<!-- start header -->
+<div id="header">
+	
+	<div id="menu">
+		<ul>
+			
+			<li><a id="loguin" href="#" accesskey="2" title="Sistema">Ingresar</a></li>
+			<li><a href="multimedia.php" accesskey="3" title="Ir A Imagenes">Imagenes</a></li>
+			<li><a href="#" accesskey="5" title="Leer Historias">Historia</a></li>
+			<li><a href="mas.html" accesskey="4" title="Ver Videos">Mas</a></li>
+			
+		</ul>
+	</div>
+</div>
+
+<!-- end header -->
+<div id="gallery">
+	<img src="images/f2.jpg" />
+</div>
+
+	<div id="formulario">
+		<form id = "formlo" name="" action="logueo.php" method="POST" >
+		   <p>Usuario : <input name="user" id="user" type="text" placeholder="Usuario"/> </p> 
+		   <p>Password: <input name="clave" type="password" placeholder="Password"/></p><br>
+		   <input name="ver" type="submit" value="Ingresar" />
+		</form>
+		<div><img src="images/user.jpg"></div>
+	</div>
+
+
+<div id="images">
+<div>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link href='http://fonts.googleapis.com/css?family=Londrina+Solid' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Cinzel' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" type="text/css" href="css/principal.css">
+</head>
+<body>
+
+	<div class="ex1">
+	
+		<img src="images/f1.jpg">
+		<img src="images/f2.jpg">
+		<img src="images/f3.jpg">
+		<img src="images/foto.jpg">
+
+	</div>
+</body>
+</html>
+
+</div>
+</div>
+
+</body>
+</html>

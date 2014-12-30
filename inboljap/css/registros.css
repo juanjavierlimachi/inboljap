@@ -1,0 +1,45 @@
+h3{
+	margin-top: 5px;
+	text-align: center;
+}
+form{
+	width: 400px;
+	font: normal bold 12px Verdana, Arial;
+}
+form label{
+	display: inline-block;
+	width: 150px;
+	font-size: 15px;
+	margin-left: 10px;
+}
+form input{
+	height: 20px;
+	margin-left: 0px;
+	display: inline-block;
+	width: 200px;
+	margin-bottom: 10px;
+
+}
+form input p:hover{
+	background-color: #434343;
+}
+
+#registro{
+	width: 400px;
+	border-radius: 10px;
+	margin: auto;
+	margin-top: 30px;
+	background-color: green;
+
+}
+
+#btnMat{
+	margin-left: 160px;
+	border-radius: 6px;
+	background-color: blue;
+	color: white;
+	font-size: 15px;
+}
+#btnMat:hover{
+	cursor: pointer;
+}

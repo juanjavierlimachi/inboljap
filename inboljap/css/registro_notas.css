@@ -1,0 +1,147 @@
+#bim{
+	width: 10%;
+	height: 25px;
+	background-color: #3300FF;
+	margin-left: 170px;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	border-radius: 8px;
+}
+#bim1{
+	width: 10%;
+	height: 25px;
+	background-color: #3300FF;
+	margin-left: 10px;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	border-radius: 8px;
+}
+#bim2{
+	width: 10%;
+	height:  25px;
+	background-color: #3300FF;
+	margin-left: 10px;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	border-radius: 8px;
+}
+#bim3{
+	width: 10%;
+	height:  25px;
+	background-color: #3300FF;
+	margin-left: 10px;
+	float: left;
+	margin-top: 10px;
+	text-align: center;
+	color: white;
+	border-radius: 8px;
+}
+
+
+#bim:hover{
+	cursor: pointer;
+	background-color: #000080;
+	color: white;
+
+}
+#bim1:hover{
+cursor: pointer;
+	background-color: #000080;color: white;
+}
+#bim2:hover{
+cursor: pointer;
+	background-color: #000080;color:white;
+}
+#bim3:hover{
+	cursor: pointer;
+	background-color: #000080;color: white;
+}
+
+#form{
+	width: 50%;
+
+	background-color: blue;
+	margin-top: 150px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+}
+#form1{
+	width: 50%;
+	
+	background-color: blue;
+	margin-top: 150px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+}
+#form2{
+	width: 50%;
+
+	background-color: blue;
+	margin-top:  150px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+}
+#form3{
+	width: 50%;
+
+	background-color: blue;
+	margin-top: 150px;
+	margin: auto;
+	text-align: center;
+	color: white;
+	border-radius: 10px;
+}
+
+
+
+
+#Formulario{
+	width: 90%;
+	height: 80%;
+	margin: auto;
+	margin-top: 10px;
+	
+}
+#notasFrom{
+	width: 65%;
+	margin: auto;
+	/*border: 2px solid #045;*/
+	margin-top: 50px;
+}
+#info{
+	/*border: 2px solid #045;*/
+	color: green;
+	text-align:center;
+	margin-top: 100px;
+}
+#info h3 p{
+	text-align: center;color: green;
+}
+#n {
+	width: 50%;
+	float: left;
+}
+#n p{
+	float: left;
+	height: 20px;
+	margin-left: 20px;
+	display: inline-block;
+}
+#n p a:hover{
+	background-color: red;
+}
+#n:hover{
+	background-color: blue;
+}
